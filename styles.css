@@ -1,0 +1,34 @@
+/* Reset & Base */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: Arial, sans-serif; line-height:1.6; color:#333; }
+.container { width:90%; max-width:1200px; margin:0 auto; }
+
+/* Header */
+.site-header { background:#fff; box-shadow:0 2px 4px rgba(0,0,0,0.1); position:sticky; top:0; z-index:100; }
+.site-header .container { display:flex; align-items:center; justify-content:space-between; padding:1rem 0; }
+.logo { font-size:1.5rem; text-decoration:none; color:#333; }
+.main-nav ul { list-style:none; display:flex; gap:1rem; }
+.main-nav a { text-decoration:none; color:#333; padding:0.5rem; }
+.nav-toggle { display:none; background:none; border:none; font-size:1.5rem; }
+
+/* Hero */
+.hero { background:url('hero-cats.jpg') center/cover no-repeat; color:#fff; padding:4rem 0; text-align:center; }
+.hero-content h1 { font-size:2.5rem; margin-bottom:1rem; }
+.hero-content p { font-size:1.2rem; margin-bottom:1.5rem; }
+.btn { display:inline-block; padding:0.75rem 1.5rem; border-radius:4px; text-decoration:none; }
+.primary { background:#ff6b6b; color:#fff; }
+
+/* Sections */
+.section { padding:3rem 0; }
+.section h2 { font-size:2rem; margin-bottom:1rem; }
+
+/* Footer */
+.site-footer { background:#f8f8f8; text-align:center; padding:1rem 0; margin-top:2rem; }
+
+/* Responsive */
+@media (max-width:768px) {
+  .main-nav { display:none; position:absolute; top:100%; left:0; right:0; background:#fff; }
+  .main-nav ul { flex-direction:column; padding:1rem; }
+  .nav-toggle { display:block; }
+  .main-nav.open { display:block; }
+}
