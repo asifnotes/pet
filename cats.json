@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Mittens",
+    "breed": "Tabby",
+    "age": "kitten",
+    "location": "New York, NY",
+    "image": "cat1.jpg",
+    "bio": "Playful little tabby who loves yarn.",
+    "health": "Up-to-date on shots"
+  },
+  {
+    "id": 2,
+    "name": "Whiskers",
+    "breed": "Siamese",
+    "age": "adult",
+    "location": "San Francisco, CA",
+    "image": "cat2.jpg",
+    "bio": "Affectionate lap cat with bright blue eyes.",
+    "health": "Neutered, microchipped"
+  },
+  {
+    "id": 3,
+    "name": "Shadow",
+    "breed": "Domestic Short Hair",
+    "age": "senior",
+    "location": "Austin, TX",
+    "image": "cat2.jpg",
+    "bio": "Calm senior who enjoys sunbathing.",
+    "health": "Dental work done"
+  }
+]
