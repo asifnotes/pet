@@ -1,0 +1,16 @@
+[
+  {
+    "id":1,
+    "title":"Nutrition Basics",
+    "category":"Nutrition",
+    "image":"care/nutrition.jpg",
+    "excerpt":"What to feed your cat at every life stage…"
+  },
+  {
+    "id":2,
+    "title":"Grooming Tips",
+    "category":"Grooming",
+    "image":"care/grooming.jpg",
+    "excerpt":"Keep your cat’s coat shiny and healthy…"
+  }
+]
