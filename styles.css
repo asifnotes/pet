@@ -57,7 +57,11 @@ body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
   text-decoration: none;
   cursor: pointer;
 }
-.primary { background: #ff6b6b; color: #fff; }
+/* Update primary buttons to use #4A6526 */
+.btn.primary {
+  background: #4A6526;
+  color: #fff;
+}
 
 /* Filters */
 .filters { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
