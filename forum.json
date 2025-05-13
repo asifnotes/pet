@@ -1,0 +1,16 @@
+[
+  {
+    "id":1,
+    "title":"Best toys for kittens?",
+    "author":"catlover23",
+    "upvotes":12,
+    "comments":4
+  },
+  {
+    "id":2,
+    "title":"Found a scared stray – advice?",
+    "author":"rescuehero",
+    "upvotes":8,
+    "comments":10
+  }
+]
