@@ -1,0 +1,14 @@
+[
+  {
+    "id":1,
+    "name":"Feather Wand Toy",
+    "price":14.99,
+    "image":"shop/feather-wand.jpg"
+  },
+  {
+    "id":2,
+    "name":"Cat Scratching Post",
+    "price":49.99,
+    "image":"shop/scratcher.jpg"
+  }
+]
